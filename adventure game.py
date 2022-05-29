@@ -92,9 +92,30 @@ elif answer.lower() == "right":
             print("You rest happily.")
             if rescuedstranger > 0:
                 print("Your friend tells you the sad story of how he ended up in his position. You are touched by his story.")
-        print("placeholder.")
+        sleep(3)
+        print("The ")
+        sleep(2)
+        print("next")
+        sleep(2)
+        print("day...")
+        sleep(3)
+        print("You wake up with a start. It's the middle of the night, and the crescent moon's dim light shines through your window.")
+        print("You are covered in sweat. You have just woken up from a nightmare in which you are kidnapped and tortured by people seeking a, as they call it, 'secret knowledge'.")
+        answer = input("Go back to sleep? (sleep/no) ")
+        if answer.lower() == "sleep":
+            print("You try to go to sleep, but cannot. You have a throbbing headache, similar to a migraine.")
+            print("Ultimately you decide to read to put your mind off of the pain.")
+        elif answer.lower() == "no":
+            print("You decide to read, but cannot.")
+            print("You have a throbbing headache, similar to the pain of a migraine.")
+        print("At some point you go and get a glass of water. As you walk up the stairs to the upper section of your cottage, you feel a large stabbing pain course through your body. You collapse and start coughing up blood. ")
+        print("Tears fill up your eyes and stream down your cheeks as you lay there.")
+        sleep(13)
+        print("That is where you will lay for the entier night, blood streaming from your mouth.")
+
 else:
     print("That is not a valid option. You have been directed to the shadow realm (placeholder_realm).")
     sleep(3)
     while 5 > 4:
-        print("error", "(you", "died)")
+        print("error", "(you", "died.) ")
+        print("= )")
